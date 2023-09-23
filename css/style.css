@@ -38,6 +38,7 @@ body {
   background-color: var(--clr-dark-bg);
   color: #fff;
   line-height: 28px;
+  overflow-x: hidden;
 }
 
 /***** Utility classes */
@@ -127,13 +128,17 @@ nav .button {
   margin-left: 65px;
 }
 
+.hamburger {
+  display: none;
+}
+
 /******* Hero ***/
 .hero {
   padding-left: 128px;
   position: relative;
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   overflow: hidden;
-  height: 813px;
+  min-height: 813px;
 }
 
 .slogan {
@@ -679,6 +684,17 @@ footer p {
   background: rgba(144, 58, 255, 0.12);
 }
 
+.prize-winners {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 127px;
+}
+
+.prize-info {
+  margin-left: 0;
+}
+
 .prize-winners .position {
   font-size: 36px;
   font-weight: 700;
@@ -755,10 +771,6 @@ footer p {
   margin-top: 65px;
   display: grid;
   place-content: center;
-}
-
-.partners-list > div {
-  width: 899px;
 }
 
 .partners-list .list {
@@ -932,6 +944,10 @@ footer .page-links a {
   gap: 19px;
 }
 
+.social-links img {
+  vertical-align: middle;
+}
+
 footer .social-desc {
   font-size: 12px;
 }
@@ -988,4 +1004,354 @@ footer .location img {
   position: absolute;
   bottom: 127px;
   right: 119px;
+}
+
+@media (max-width: 768px) {
+  .mobile-center {
+    text-align: center;
+  }
+
+  h3 {
+    margin: 0 auto;
+    margin-bottom: 9px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .idea p,
+  .rules p,
+  .criteria p,
+  .faq p,
+  .timeline p,
+  .prizes p,
+  .partners p,
+  .policy p,
+  footer p {
+    font-size: 12px;
+    line-height: 22px;
+    max-width: 100%;
+  }
+
+  .hero-card,
+  .idea,
+  .rules,
+  .criteria,
+  .faq,
+  .prizes,
+  .policy,
+  .footer-flex {
+    flex-direction: column;
+  }
+
+  /* main */
+  header {
+    padding: 34px 48px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .hero {
+    padding-left: 18px 33px 0;
+    overflow: visible;
+  }
+
+  .hero-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: url("../assets/images/metrix.png") 4.385px 0px / 122.403%
+      102.747% no-repeat;
+    background-blend-mode: luminosity;
+  }
+
+  .hero-title-section {
+    width: 289px;
+    height: 100px;
+    margin-top: 152px;
+    margin-bottom: 9px;
+  }
+
+  .hero-title-section .title {
+    font-size: 32px;
+    max-width: 269px;
+    height: 37px;
+  }
+
+  .hero-title-section .subtitle {
+    font-size: 32px;
+    max-width: 281px;
+    height: 37px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .timer {
+    font-family: var(--ff-unica);
+    font-size: 64px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 15px 0 0;
+  }
+
+  .smart {
+    width: 420px;
+    height: 362px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .globe {
+    display: none;
+  }
+
+  /* Idea */
+  .idea {
+    padding: 28px 34px 80px;
+  }
+
+  .idea-image img {
+    width: 264px;
+    height: 257px;
+    margin-bottom: 58px;
+  }
+
+  /* Rules */
+  .rules {
+    padding: 0 34px 46px;
+  }
+
+  .rules-info {
+    order: 2;
+  }
+
+  .rules-image {
+    order: 1;
+  }
+
+  .rules-image img {
+    width: 294px;
+    height: 382px;
+    margin-bottom: 10px;
+  }
+
+  /* Criteria */
+  .criteria {
+    padding: 74px 29px 80px;
+  }
+
+  .criteria-image img {
+    width: 332px;
+    height: 275px;
+  }
+
+  .criteria .button {
+    margin: 0 auto;
+  }
+
+  /* FAQ */
+  .faq {
+    padding: 65px 32px 49px;
+  }
+
+  .faq-list {
+    margin-bottom: 86px;
+    place-content: center;
+  }
+
+  .faq .faq-description {
+    margin-bottom: 45px;
+  }
+
+  .faq .faq-list__item {
+    font-size: 12px;
+  }
+
+  .faq .faq-list__item {
+    width: 296px;
+  }
+
+  .faq-list__item p {
+    width: 270px;
+  }
+
+  .faq-image img {
+    width: 327px;
+    height: 327px;
+  }
+
+  /* Timeline */
+  .timeline {
+    padding: 80px 32px;
+  }
+
+  .timeline-right {
+    display: none;
+  }
+
+  /* Prizes */
+  .prizes {
+    padding: 72px 54px 92px;
+  }
+
+  .silver-medal {
+    top: 590px;
+    left: 60px;
+    width: 76px;
+    height: 76px;
+  }
+
+  .gold-medal {
+    top: 549px;
+    left: 138px;
+    width: 125px;
+    height: 125px;
+  }
+
+  .bronze-medal {
+    top: 590px;
+    left: 265px;
+    width: 76px;
+    height: 76px;
+  }
+
+  .prize-image img {
+    width: 321px;
+    height: 282px;
+  }
+
+  .bronze,
+  .silver {
+    width: 90px;
+    height: 125px;
+  }
+
+  .gold {
+    width: 90px;
+    height: 147px;
+  }
+
+  .prize-winners .position {
+    font-size: 12px;
+    height: 25px;
+    margin-top: 38px;
+  }
+
+  .prize-winners .gold .position {
+    font-size: 18px;
+    height: 25px;
+    margin-top: 60px;
+  }
+
+  .prize-winners .runner {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .prize-winners .amount {
+    font-size: 14px;
+    height: 29px;
+  }
+
+  /* Partners */
+  .partners {
+    padding: 41px 29px 104px;
+  }
+
+  .partners-list {
+    width: 333px;
+    height: 148px;
+  }
+
+  .partners-list .list {
+    width: 85px;
+    padding: 7px 0;
+  }
+
+  .liberty {
+    width: 32px;
+    height: 30px;
+  }
+
+  .liberty-pay {
+    width: 56px;
+    height: 11px;
+  }
+
+  .winwise {
+    width: 35px;
+    height: 28px;
+  }
+
+  .wisper {
+    width: 39px;
+    height: 29px;
+  }
+
+  .paybox {
+    width: 56px;
+    height: 11px;
+  }
+
+  .vuzual {
+    width: 69px;
+    height: 21px;
+  }
+
+  .horizontal-line {
+    width: 68px;
+    height: 2px;
+  }
+
+  .vertical-line {
+    width: 2px;
+    height: 29px;
+  }
+
+  /* Policy */
+  .policy {
+    padding: 71px 46px 83px;
+  }
+
+  .policy h3 {
+    max-width: 188px;
+  }
+
+  .policy-desc {
+    margin-bottom: 30px;
+  }
+
+  .policy-details {
+    width: 295px;
+    height: 635px;
+    padding: 45px 15px 50px;
+    margin-bottom: 144px;
+  }
+
+  .policy-image img {
+    width: 262px;
+    height: 351px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 51px 87px;
+  }
+
+  .terms {
+    margin-top: 39px;
+  }
+
+  .footer-links {
+    margin-top: 32px;
+  }
+
+  footer .contact-us {
+    margin-top: 61px;
+  }
 }
