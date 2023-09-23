@@ -475,6 +475,25 @@ footer p {
 /****** Section Timeline ***/
 .timeline {
   padding: 72px 141px 109px 139px;
+  position: relative;
+}
+
+.timeline-star-1 {
+  position: absolute;
+  top: 266px;
+  left: 338px;
+}
+
+.timeline-star-2 {
+  position: absolute;
+  top: 734px;
+  right: 266px;
+}
+
+.timeline-star-3 {
+  position: absolute;
+  bottom: 183px;
+  left: 177px;
 }
 
 .timeline h3,
@@ -496,6 +515,7 @@ footer p {
 
 .timeline-content img {
   margin: 0 auto;
+  text-align: center;
 }
 
 .timeline-content__list {
