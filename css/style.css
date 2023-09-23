@@ -291,6 +291,19 @@ footer p {
   right: 161px;
 }
 
+.idea-image {
+  position: relative;
+}
+
+.big-idea {
+  position: absolute;
+  top: 227px;
+  left: 167px;
+  max-width: 145px;
+  font-size: 24px;
+  text-align: center;
+}
+
 .idea-chain {
   position: absolute;
   top: 489px;
@@ -474,7 +487,7 @@ footer p {
 
 /****** Section Timeline ***/
 .timeline {
-  padding: 72px 141px 109px 139px;
+  padding: 72px 140px 109px 140px;
   position: relative;
 }
 
@@ -534,9 +547,9 @@ footer p {
   justify-self: start;
 }
 
-.timeline-content__heading {
+.timeline .timeline-content__heading {
   color: var(--clr-pink);
-  font-size: 24px;
+  font-size: 18px;
   font-weight: var(--fw-bold);
 }
 
