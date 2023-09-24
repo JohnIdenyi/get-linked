@@ -333,7 +333,7 @@ footer p {
 
 .rule-right-grad {
   top: 350px;
-  right: 0px;
+  right: 0;
 }
 
 .rules-star-grey {
@@ -365,7 +365,7 @@ footer p {
 
 .criteria-right-grad {
   top: 650px;
-  right: 0px;
+  right: 0;
   height: 500px;
   width: 550px;
 }
@@ -577,13 +577,13 @@ footer p {
 }
 
 .prizes-left-grad {
-  top: 0px;
+  top: 0;
   left: 200px;
 }
 
 .prizes-right-grad {
   top: 500px;
-  right: 0px;
+  right: 0;
 }
 
 .prizes-star-1 {
@@ -1008,12 +1008,22 @@ footer .location img {
 }
 
 @media (max-width: 768px) {
-  .logo {
-    font-size: 20px;
+  .gradient {
+    width: 150px;
+    height: 200px;
+  }
+
+  .star {
+    width: 9px;
+    height: 10px;
   }
 
   .mobile-center {
     text-align: center;
+  }
+
+  .logo {
+    font-size: 20px;
   }
 
   h3 {
@@ -1223,6 +1233,17 @@ footer .location img {
   /* Rules */
   .rules {
     padding: 0 34px 46px;
+    overflow-x: hidden;
+  }
+
+  .rule-left-grad {
+    top: 0;
+    left: 100px;
+  }
+
+  .rule-right-grad {
+    top: 200px;
+    right: 0;
   }
 
   .rules-star-grey {
@@ -1252,6 +1273,17 @@ footer .location img {
   /* Criteria */
   .criteria {
     padding: 74px 29px 80px;
+    overflow-x: hidden;
+  }
+
+  .criteria-left-grad {
+    top: 100px;
+    left: 50px;
+  }
+
+  .criteria-right-grad {
+    bottom: 150px;
+    right: 0;
   }
 
   .criteria-ellipse {
@@ -1281,6 +1313,7 @@ footer .location img {
   /* FAQ */
   .faq {
     padding: 65px 32px 49px;
+    overflow-x: hidden;
   }
 
   .faq-list {
@@ -1312,6 +1345,7 @@ footer .location img {
   /* Timeline */
   .timeline {
     padding: 80px 32px;
+    overflow-x: hidden;
   }
 
   .timeline-content__list {
@@ -1338,6 +1372,17 @@ footer .location img {
   /* Prizes */
   .prizes {
     padding: 72px 54px 92px;
+    overflow-x: hidden;
+  }
+
+  .prizes-left-grad {
+    top: 20px;
+    left: 0;
+  }
+
+  .prizes-right-grad {
+    top: 500px;
+    right: 0;
   }
 
   .prizes-star-1,
