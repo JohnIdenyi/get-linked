@@ -1402,12 +1402,18 @@ footer .location img {
     overflow-x: hidden;
   }
 
+  .timeline-content img {
+    margin: 0;
+    margin-left: 7px;
+    margin-bottom: 7px;
+  }
+
   .timeline-content__list {
     display: grid;
     grid-template-columns: 19px 279px;
     gap: 8px;
     justify-items: center;
-    align-items: end;
+    align-items: start;
   }
 
   .timeline-right {
