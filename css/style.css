@@ -568,6 +568,10 @@ footer p {
   place-content: center;
 }
 
+.timeline-mobile {
+  display: none;
+}
+
 /****** Section Prizes ***/
 .prizes {
   padding: 74px 129px 149px 106px;
@@ -1279,6 +1283,7 @@ footer .location img {
   /* Criteria */
   .criteria {
     padding: 74px 29px 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     overflow-x: hidden;
   }
 
@@ -1427,6 +1432,10 @@ footer .location img {
   .timeline-number {
     width: 19px;
     height: 19px;
+  }
+
+  .timeline-mobile {
+    display: block;
   }
 
   /* Prizes */
