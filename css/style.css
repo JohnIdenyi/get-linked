@@ -1027,6 +1027,10 @@ footer .location img {
     margin: 0 auto;
   }
 
+  body {
+    width: 396px;
+  }
+
   .idea p,
   .rules p,
   .criteria p,
@@ -1433,6 +1437,10 @@ footer .location img {
 
   .footer-links {
     margin-top: 32px;
+  }
+
+  footer .page-links {
+    font-size: 12px;
   }
 
   footer .contact-us {
