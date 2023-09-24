@@ -1026,6 +1026,8 @@ footer .location img {
 
   .button {
     margin: 0 auto;
+    font-size: 14px;
+    padding: 14px 46px;
   }
 
   body {
