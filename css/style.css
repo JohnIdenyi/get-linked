@@ -1071,6 +1071,10 @@ footer .location img {
   }
 
   /* main */
+  main {
+    overflow-x: hidden;
+  }
+
   .main-left-grad {
     top: 150px;
     left: 0;
@@ -1208,6 +1212,7 @@ footer .location img {
   /* Idea */
   .idea {
     padding: 28px 34px 80px;
+    overflow-x: hidden;
   }
 
   .big-idea {
