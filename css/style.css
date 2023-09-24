@@ -469,6 +469,7 @@ footer p {
   top: 105px;
   right: 380px;
 }
+
 /****** */
 .faq h3 {
   max-width: 253px;
@@ -1314,6 +1315,54 @@ footer .location img {
   .faq {
     padding: 65px 32px 49px;
     overflow-x: hidden;
+  }
+
+  .faq-star-1 {
+    top: 47px;
+    left: 59px;
+  }
+
+  .faq-star-2 {
+    top: 886px;
+    right: 330px;
+  }
+
+  .faq-star-3 {
+    top: 728px;
+    right: 285px;
+  }
+
+  .faq-star-4 {
+    top: 708px;
+    right: 199px;
+  }
+
+  .faq-star-5 {
+    bottom: 44px;
+    right: 92px;
+  }
+
+  .question-1,
+  .question-3 {
+    width: 50px;
+    height: 32px;
+  }
+
+  .question-1 {
+    top: 720px;
+    right: 290px;
+  }
+
+  .question-2 {
+    top: 680px;
+    right: 220px;
+    width: 50px;
+    height: 31px;
+  }
+
+  .question-3 {
+    top: 720px;
+    right: 140px;
   }
 
   .faq-list {
