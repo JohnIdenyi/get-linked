@@ -824,6 +824,7 @@ footer p {
   bottom: 500px;
   right: 580px;
 }
+
 .policy-star-7 {
   position: absolute;
   bottom: 338px;
@@ -1099,12 +1100,23 @@ footer .location img {
     height: 7px;
   }
 
+  .star-white {
+    top: 62px;
+    left: 123px;
+  }
+
+  .star-grey-1 {
+    top: 62px;
+    left: 315px;
+  }
+
+  .star-grey-2 {
+    display: none;
+  }
+
   .hero-card {
-    display: grid;
     grid-template-columns: 1fr;
-    background: url("../assets/images/metrix.png") 4.385px 0px / 122.403%
-      102.747% no-repeat;
-    background-blend-mode: luminosity;
+    background: none;
   }
 
   .text-container {
@@ -1185,6 +1197,21 @@ footer .location img {
     padding: 28px 34px 80px;
   }
 
+  .big-idea {
+    top: 120px;
+    left: 92px;
+    max-width: 78px;
+    font-size: 14px;
+    line-height: 17.15px;
+  }
+
+  .idea-chain {
+    top: 296px;
+    left: 181px;
+    width: 19px;
+    height: 23px;
+  }
+
   .idea-image img {
     width: 264px;
     height: 257px;
@@ -1194,6 +1221,16 @@ footer .location img {
   /* Rules */
   .rules {
     padding: 0 34px 46px;
+  }
+
+  .rules-star-grey {
+    top: 185px;
+    left: 43px;
+  }
+
+  .rules-star-white {
+    bottom: 19px;
+    left: 108px;
   }
 
   .rules-info {
@@ -1217,6 +1254,21 @@ footer .location img {
 
   .criteria-ellipse {
     display: none;
+  }
+
+  .criteria-star-big {
+    top: 30px;
+    left: 173px;
+  }
+
+  .criteria-star-grey {
+    top: 221px;
+    left: 212px;
+  }
+
+  .criteria-star-white {
+    bottom: 76px;
+    left: 50px;
   }
 
   .criteria-image img {
@@ -1286,6 +1338,15 @@ footer .location img {
     padding: 72px 54px 92px;
   }
 
+  .prizes-star-1,
+  .prizes-star-2,
+  .prizes-star-3,
+  .prizes-star-4,
+  .prizes-star-5,
+  .prizes-star-6 {
+    display: none;
+  }
+
   .silver-medal {
     top: 590px;
     left: 60px;
@@ -1350,6 +1411,35 @@ footer .location img {
     padding: 41px 27px 104px;
   }
 
+  .partners-left-grad {
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 200px;
+  }
+
+  .partners-right-grad {
+    top: 300px;
+    right: 0;
+    height: 250px;
+    width: 100px;
+  }
+
+  .partners-star-1 {
+    display: none;
+  }
+
+  .partners-star-2 {
+    top: 200px;
+    left: 45px;
+  }
+
+  .partners-star-3 {
+    position: absolute;
+    bottom: 50px;
+    right: 35px;
+  }
+
   .partners-list {
     width: 333px;
     height: 148px;
@@ -1405,6 +1495,46 @@ footer .location img {
     padding: 71px 46px 83px;
   }
 
+  .policy-star-1 {
+    top: 729px;
+    left: 22px;
+  }
+
+  .policy-star-2 {
+    position: absolute;
+    top: 232px;
+    left: 306px;
+  }
+
+  .policy-star-3 {
+    top: 43px;
+    left: 286px;
+  }
+
+  .policy-star-4 {
+    position: absolute;
+    bottom: 438px;
+    left: 39px;
+  }
+
+  .policy-star-5 {
+    bottom: 430px;
+    right: 121px;
+  }
+
+  .policy-star-6 {
+    bottom: 200px;
+    right: 250px;
+  }
+
+  .bg-padlock {
+    position: absolute;
+    top: 959px;
+    left: 73px;
+    width: 249px;
+    height: 311px;
+  }
+
   .policy h3 {
     max-width: 188px;
   }
@@ -1449,5 +1579,25 @@ footer .location img {
 
   .copyright {
     margin-top: 60px;
+  }
+
+  .footer-star-1 {
+    top: 128px;
+    left: 36px;
+  }
+
+  .footer-star-2 {
+    bottom: 399px;
+    right: 174px;
+  }
+
+  .footer-star-3 {
+    bottom: 94px;
+    left: 126px;
+  }
+
+  .footer-star-4 {
+    bottom: 190px;
+    right: 77px;
   }
 }
