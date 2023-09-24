@@ -1505,6 +1505,7 @@ footer .location img {
   /* Partners */
   .partners {
     padding: 41px 27px 104px;
+    overflow-x: hidden;
   }
 
   .partners-left-grad {
@@ -1589,6 +1590,7 @@ footer .location img {
   /* Policy */
   .policy {
     padding: 71px 46px 83px;
+    overflow-x: hidden;
   }
 
   .policy-star-1 {
