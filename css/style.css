@@ -1135,6 +1135,20 @@ footer .location img {
     display: none;
   }
 
+  .chain {
+    top: 138px;
+    left: 284px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .fire {
+    top: 142px;
+    left: 317px;
+    width: 22px;
+    height: 22px;
+  }
+
   .hero-card {
     grid-template-columns: 1fr;
     background: none;
@@ -1152,7 +1166,11 @@ footer .location img {
   }
 
   .hero-title-section .light-bulb {
-    display: none;
+    position: absolute;
+    top: 80px;
+    left: 273px;
+    width: 18px;
+    height: 26px;
   }
 
   .hero-title-section .title,
@@ -1160,12 +1178,12 @@ footer .location img {
     font-size: 32px;
     max-width: 269px;
     height: 37px;
-    margin: 0 auto;
     text-align: center;
   }
 
   .hero-title-section .title {
     max-width: 269px;
+    margin: 0 auto;
   }
 
   .hero-title-section .subtitle {
