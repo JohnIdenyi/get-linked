@@ -1040,6 +1040,7 @@ footer .location img {
 
   body {
     width: 396px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
