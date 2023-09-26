@@ -1229,7 +1229,6 @@ footer .location img {
   /* Idea */
   .idea {
     padding: 28px 34px 80px;
-    overflow-x: hidden;
   }
 
   .idea-star-small {
@@ -1268,7 +1267,6 @@ footer .location img {
   /* Rules */
   .rules {
     padding: 0 34px 46px;
-    overflow-x: hidden;
   }
 
   .rule-left-grad {
@@ -1309,7 +1307,6 @@ footer .location img {
   .criteria {
     padding: 74px 29px 80px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
-    overflow-x: hidden;
   }
 
   .criteria-left-grad {
@@ -1349,7 +1346,6 @@ footer .location img {
   /* FAQ */
   .faq {
     padding: 60px 32px 49px;
-    overflow-x: hidden;
   }
 
   .faq-star-1 {
@@ -1483,7 +1479,6 @@ footer .location img {
   /* Prizes */
   .prizes {
     padding: 72px 54px 92px;
-    overflow-x: hidden;
   }
 
   .prizes-left-grad {
@@ -1660,7 +1655,6 @@ footer .location img {
   /* Policy */
   .policy {
     padding: 71px 46px 83px;
-    overflow-x: hidden;
   }
 
   .policy-star-1 {
