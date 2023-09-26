@@ -1125,7 +1125,9 @@ footer .location img {
   }
 
   .star-grey-2 {
-    display: none;
+    position: absolute;
+    top: 286px;
+    left: 310px;
   }
 
   .chain {
