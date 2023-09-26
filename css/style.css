@@ -697,7 +697,7 @@ footer p {
   font-size: 36px;
   font-weight: 700;
   height: 30px;
-  margin-top: 131px;
+  margin-top: 141px;
 }
 
 .prize-winners .gold .position {
@@ -1534,6 +1534,15 @@ footer .location img {
   .gold {
     width: 90px;
     height: 147px;
+  }
+
+  .prize-winners {
+    gap: 12px;
+    margin-top: 127px;
+  }
+
+  .prize-info {
+    margin-left: 0;
   }
 
   .prize-winners .position {
