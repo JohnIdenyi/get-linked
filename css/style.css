@@ -693,17 +693,6 @@ footer p {
   background: rgba(144, 58, 255, 0.12);
 }
 
-.prize-winners {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  margin-top: 127px;
-}
-
-.prize-info {
-  margin-left: 0;
-}
-
 .prize-winners .position {
   font-size: 36px;
   font-weight: 700;
