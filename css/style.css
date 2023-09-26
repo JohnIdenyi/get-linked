@@ -1234,13 +1234,13 @@ footer .location img {
 
   .idea-star-small {
     position: absolute;
-    top: 223px;
+    top: 112px;
     left: 63px;
   }
 
   .idea-star-big {
     position: absolute;
-    top: 396px;
+    top: 376px;
     right: 44px;
   }
 
@@ -1338,7 +1338,7 @@ footer .location img {
 
   .criteria-star-white {
     bottom: 76px;
-    left: 50px;
+    left: 330px;
   }
 
   .criteria-image img {
@@ -1348,7 +1348,7 @@ footer .location img {
 
   /* FAQ */
   .faq {
-    padding: 65px 32px 49px;
+    padding: 60px 32px 49px;
     overflow-x: hidden;
   }
 
@@ -1398,6 +1398,10 @@ footer .location img {
   .question-3 {
     top: 720px;
     right: 140px;
+  }
+
+  .faq h3 {
+    max-width: 158px;
   }
 
   .faq-list {
