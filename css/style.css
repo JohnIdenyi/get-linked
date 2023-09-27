@@ -1038,9 +1038,9 @@ footer .location img {
     padding: 14px 46px;
   }
 
-  body {
+  /* body {
     width: 396px;
-  }
+  } */
 
   .idea p,
   .rules p,
@@ -1132,14 +1132,14 @@ footer .location img {
 
   .chain {
     top: 138px;
-    left: 284px;
+    left: 268px;
     width: 32px;
     height: 32px;
   }
 
   .fire {
     top: 142px;
-    left: 317px;
+    left: 300px;
     width: 22px;
     height: 22px;
   }
@@ -1183,6 +1183,8 @@ footer .location img {
 
   .hero-title-section .subtitle {
     max-width: 281px;
+    display: inline-block;
+    margin-left: 7px;
   }
 
   .text-container .description {
@@ -1214,7 +1216,7 @@ footer .location img {
   .smart {
     width: 390px;
     height: 362px;
-    margin: 0 auto;
+    max-width: 100%;
     margin-top: 25px;
     height: 100%;
   }
@@ -1605,6 +1607,7 @@ footer .location img {
   .partners-list {
     width: 333px;
     height: 148px;
+    max-width: 100%;
   }
 
   .partners-list .list {
