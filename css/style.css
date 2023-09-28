@@ -1132,14 +1132,14 @@ footer .location img {
 
   .chain {
     top: 138px;
-    left: 268px;
+    left: 284px;
     width: 32px;
     height: 32px;
   }
 
   .fire {
     top: 142px;
-    left: 300px;
+    left: 317px;
     width: 22px;
     height: 22px;
   }
@@ -1183,8 +1183,6 @@ footer .location img {
 
   .hero-title-section .subtitle {
     max-width: 281px;
-    display: inline-block;
-    margin-left: 7px;
   }
 
   .text-container .description {
