@@ -1217,10 +1217,9 @@ footer .location img {
 
   .smart {
     width: 390px;
-    height: 362px;
     max-width: 100%;
     margin-top: 17px;
-    max-height: 100%;
+    height: 100%;
   }
 
   .globe {
