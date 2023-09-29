@@ -1131,15 +1131,13 @@ footer .location img {
   }
 
   .chain {
-    top: 138px;
-    left: 284px;
+    position: static;
     width: 32px;
     height: 32px;
   }
 
   .fire {
-    top: 142px;
-    left: 317px;
+    position: static;
     width: 22px;
     height: 22px;
   }
@@ -1181,6 +1179,10 @@ footer .location img {
     margin: 0 auto;
   }
 
+  .subtitle-container {
+    display: flex;
+  }
+
   .hero-title-section .subtitle {
     max-width: 281px;
   }
@@ -1188,8 +1190,8 @@ footer .location img {
   .text-container .description {
     font-size: 13px;
     line-height: 22px;
-    max-width: 264x;
-    margin: 8px 0 24px 0;
+    max-width: 264px;
+    margin: 8px auto 24px;
     text-align: center;
   }
 
