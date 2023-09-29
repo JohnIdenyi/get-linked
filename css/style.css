@@ -657,6 +657,10 @@ footer p {
   margin-left: 149px;
 }
 
+.mobile-prize-info {
+  display: block;
+}
+
 .prize-info h3 {
   max-width: 174px;
 }
@@ -1503,7 +1507,11 @@ footer .location img {
   }
 
   .prize-info {
-    margin-left: 0;
+    display: none;
+  }
+
+  .mobile-prize-info {
+    display: block;
   }
 
   .prize-winners {
