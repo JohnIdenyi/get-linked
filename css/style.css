@@ -1373,27 +1373,19 @@ footer .location img {
     right: 92px;
   }
 
-  .question-1,
-  .question-3 {
-    width: 50px;
-    height: 32px;
-  }
-
   .question-1 {
-    top: 720px;
+    top: 760px;
     right: 290px;
   }
 
   .question-2 {
-    top: 680px;
+    top: 730px;
     right: 220px;
-    width: 50px;
-    height: 31px;
   }
 
   .question-3 {
-    top: 720px;
-    right: 140px;
+    top: 760px;
+    right: 150px;
   }
 
   .faq h3 {
