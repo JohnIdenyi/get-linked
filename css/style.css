@@ -111,6 +111,7 @@ a {
 
 header {
   padding: 63px 128px 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 nav ul {
@@ -356,6 +357,7 @@ footer p {
 /******* Section Criteria ***/
 .criteria {
   padding: 88px 119px 171px 66px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   position: relative;
 }
 
@@ -658,7 +660,7 @@ footer p {
 }
 
 .mobile-prize-info {
-  display: block;
+  display: none;
 }
 
 .prize-info h3 {
@@ -766,6 +768,7 @@ footer p {
 
 .partners-list {
   width: 1255px;
+  max-width: 100%;
   height: 560px;
   margin: 0 auto;
   border-radius: 5px;
@@ -1308,7 +1311,6 @@ footer .location img {
 
   .rules-image img {
     width: 294px;
-    height: 382px;
     margin-bottom: 10px;
   }
 
@@ -1345,6 +1347,10 @@ footer .location img {
   .criteria-star-white {
     bottom: 76px;
     left: 330px;
+  }
+
+  .criteria-image {
+    align-self: center;
   }
 
   .criteria-image img {
@@ -1504,6 +1510,7 @@ footer .location img {
   .prize-image img {
     width: 321px;
     height: 282px;
+    /* margin-top: 40px; */
   }
 
   .prize-info {
@@ -1611,7 +1618,6 @@ footer .location img {
   .partners-list {
     width: 333px;
     height: 148px;
-    max-width: 100%;
   }
 
   .partners-list .list {
