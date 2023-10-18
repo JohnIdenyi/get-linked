@@ -166,4 +166,8 @@ textarea {
     justify-content: center;
     gap: 19px;
   }
+
+  .mobile-social-links a {
+    height: 16px;
+  }
 }
