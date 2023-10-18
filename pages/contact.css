@@ -23,6 +23,30 @@ header {
   height: 500px;
 }
 
+.star {
+  position: absolute;
+}
+
+.star-1 {
+  top: 58px;
+  left: 205px;
+}
+
+.star-2 {
+  top: 26px;
+  right: 235px;
+}
+
+.star-3 {
+  bottom: 248px;
+  left: 673px;
+}
+
+.star-4 {
+  bottom: 115px;
+  right: 128px;
+}
+
 form {
   width: 617px;
   padding: 75px 90px 67px;
@@ -132,6 +156,26 @@ textarea {
 
   .right-grad {
     display: none;
+  }
+
+  .star-1 {
+    top: 67px;
+    left: 183px;
+  }
+
+  .star-2 {
+    top: 138px;
+    right: 57px;
+  }
+
+  .star-3 {
+    bottom: 133px;
+    left: 34px;
+  }
+
+  .star-4 {
+    bottom: 210px;
+    right: 27px;
   }
 
   .form-details {
