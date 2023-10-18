@@ -48,7 +48,9 @@ body {
   align-items: center;
 }
 
-.logo {
+.logo a {
+  text-decoration: none;
+  color: #fff;
   font-size: 2.25rem;
   font-family: var(--ff-clash-display);
   font-weight: var(--fw-bold);
@@ -112,6 +114,16 @@ a {
 header {
   padding: 63px 128px 25px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.32);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 nav ul {
@@ -1028,7 +1040,7 @@ footer .location img {
     text-align: center;
   }
 
-  .logo {
+  .logo a {
     font-size: 20px;
   }
 
