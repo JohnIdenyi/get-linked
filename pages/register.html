@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      header .button {
+        border-radius: 4px;
+        border: 2px solid transparent;
+        background: linear-gradient(#150e28, #150e28) padding-box,
+          linear-gradient(
+              270deg,
+              #903aff 0%,
+              #d434fe 56.42%,
+              #ff26b9 99.99%,
+              #fe34b9 100%
+            )
+            border-box;
+      }
+
+      header {
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="flex-item">
+        <div class="logo">
+          <a href="../index.html"> get<span class="neutral">linked</span> </a>
+        </div>
+        <ul>
+          <li><a href="../index.html#timeline">Timeline</a></li>
+          <li><a href="../index.html#idea">Overview</a></li>
+          <li><a href="../index.html#faq">FAQs</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <a class="button" href="./register.html">Register</a>
+        </ul>
+        <a href="../index.html" class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="23"
+            height="23"
+            viewBox="0 0 23 23"
+            fill="none"
+          >
+            <circle
+              cx="11.5"
+              cy="11.5"
+              r="11"
+              stroke="url(#paint0_linear_177_298)"
+            />
+            <path
+              d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667"
+              stroke="white"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_177_298"
+                x1="11.5"
+                y1="0"
+                x2="11.5"
+                y2="23"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#903AFF" />
+                <stop offset="1" stop-color="#FF26B9" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    <section class="section-form reg-section flex-item">
+      <div class="gradient left-grad"></div>
+      <div class="gradient right-grad"></div>
+
+      <img
+        class="star star-1"
+        src="../assets/images/star-pink-small.png"
+        alt="small pink star"
+      />
+      <img class="star star-2" src="../assets/images/star-grey.png" alt="" />
+      <img
+        class="star star-3"
+        src="../assets/images/star-pink-big.png"
+        alt="big pink star"
+      />
+      <img class="star star-4" src="../assets/images/star-white.png" alt="" />
+
+      <h1 class="reg-mobile-h1 neutral">Register</h1>
+      <picture>
+        <source
+          media="(min-width: 769px)"
+          srcset="../assets/images/register-image.png"
+          alt=""
+        />
+        <source
+          media="(max-width: 768px)"
+          srcset="../assets/images/register-small-image.png"
+          alt=""
+        />
+        <img src="./assets/images/register-small-image.png" alt="" />
+      </picture>
+      <form action="#" class="form-reg">
+        <h3 class="neutral form-heading register-text">Register</h3>
+        <div class="movement">
+          <p>Be part of this movement!</p>
+          <div class="movement__section">
+            <img
+              src="../assets/images/walking-girl.png"
+              alt="A picture of a girl walking"
+            />
+            <img
+              src="../assets/images/walking-boy.png"
+              alt="A picture of a boy walking"
+            />
+          </div>
+        </div>
+        <h3 class="form-heading create-account">Create your account</h3>
+        <div class="reg-form-controls">
+          <div>
+            <div>
+              <label for="first-name">Team's Name</label>
+              <input
+                class="form-control"
+                type="text"
+                id="first-name"
+                placeholder="Enter the name of your group"
+              />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input
+                class="form-control"
+                type="tel"
+                id="phone"
+                placeholder="Enter your phone number"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div>
+              <label for="project">Project Topic</label>
+              <input
+                class="form-control"
+                type="text"
+                id="project"
+                placeholder="What is your group project topic"
+              />
+            </div>
+          </div>
+          <div class="reg-category-size">
+            <div>
+              <label for="category">Category</label>
+              <select id="category" class="form-control">
+                <option value="">Select your category</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </div>
+            <div>
+              <label for="size">Group Size</label>
+              <select id="size" class="form-control">
+                <option value="">Select</option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <p class="review">
+          Please review your registration details before submitting
+        </p>
+        <div class="terms-agree">
+          <input type="checkbox" id="check" />
+          <label for="check"
+            >I agreed with the event terms and conditions and privacy
+            policy</label
+          >
+        </div>
+        <a class="button reg-btn" href="#">Register Now</a>
+      </form>
+    </section>
+
+    <!-- <script src="../js/app.js"></script> -->
+  </body>
+</html>
