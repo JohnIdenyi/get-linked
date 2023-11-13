@@ -1,8 +1,12 @@
 const navBtn = document.querySelector(".hamburger");
-const header = document.querySelector("header");
+const header = document.querySelector("#main-header");
 const navBar = document.querySelector("nav");
+const formReg = document.getElementById("form-reg");
+const closeBtn = document.querySelector(".close");
 
 window.addEventListener("scroll", handleScroll);
+formReg.addEventListener("submit", createUser);
+closeBtn.addEventListener("click", closeModal);
 
 function handleScroll() {
   const scrollHeight = window.scrollY;
@@ -24,3 +28,15 @@ navBtn.addEventListener("click", (e) => {
     navBar.children[1].style.order = "2";
   }
 });
+
+function createUser(e) {
+  e.preventDefault();
+
+  document.querySelector(".modal").style.display = "block";
+}
+
+function closeModal(e) {
+  if (e.target) {
+    document.querySelector(".modal").style.display = "none";
+  }
+}
