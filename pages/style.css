@@ -457,5 +457,6 @@ textarea {
 
   .modal-content p {
     font-size: 12px;
+    line-height: normal;
   }
 }
